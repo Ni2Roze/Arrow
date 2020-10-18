@@ -20,8 +20,6 @@ public class CompleteArrow {
             this.arrowTail2 = new ArrowTail2();
             group.getChildren().add(arrowTail2);
         }
-
-        //this.arrowTail2 = new ArrowTail2();
     }
     public Group getGroup(){
         return group;
