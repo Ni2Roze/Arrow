@@ -23,19 +23,6 @@ public class Main extends Application {
             Scene scene = new Scene(mainStage,800,500);
             primaryStage.setScene(scene);
             primaryStage.show();
-
-            //ArrowTail1 arrowTail1 = new ArrowTail1();
-            //mainStage.getChildren().add(arrowTail1.getGroup());
-            /*if(arrowTailPicker == 1){
-                ArrowTail1 arrowTail1 = new ArrowTail1();
-                mainStage.getChildren().add(arrowTail1.getGroup());
-            }*/
-            /*
-
-            if(arrowTailPicker == 2){
-                ArrowTail2 arrowTail2 = new ArrowTail2();
-                mainStage.getChildren().add(arrowTail2.getGroup());
-            }*/
         } catch(Exception e) {
             e.printStackTrace();
         }
